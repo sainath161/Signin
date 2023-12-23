@@ -1,0 +1,84 @@
+.singup{
+  width: 30%;
+  margin: auto;
+  justify-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+.userinfo{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+  
+}
+
+.userinfo label{
+  font-size: 18px;
+  color:#696969;
+}
+
+.userinfo input,button{
+  padding: 0.8rem;
+  width: 57%;
+
+  margin-bottom: 2rem;
+
+}
+.userinfo button{
+  background-color: #625BF7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 63%;
+}
+
+.Login{
+  width: 30%;
+  margin:10rem;
+  border: 2px solid green;
+}
+
+@media screen and (max-width: 1000px) {
+  .singup{
+    width: 50%;
+  }
+}
+
+ @media screen and (max-width: 800px) {
+  .singup{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .singup{
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .singup{
+    width: 70%;
+  }
+}
+
+/*@media screen and (min-width: 400px) {
+  .singup{
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .singup{
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 100px) {
+  .singup{
+    width: 90%;
+  }
+} */
